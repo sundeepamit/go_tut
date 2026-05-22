@@ -1,7 +1,9 @@
-package main
-import ("fmt")
+package main //main package in go module contains a code that starts a program
 
-func main(){
-    fmt.Println("Hello World!")
+import "fmt"
+
+func main() {
+	// calls Println() function from a fmt package.
+	// fmt.Println("Hello World!!!")
+	fmt.Printf("Hello, %s!!!!\n", "world")
 }
-
