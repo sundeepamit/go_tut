@@ -15,5 +15,5 @@ func main() {
 	var sum2 int64 = x + int64(y)
 	fmt.Println("Sum1 is ", sum1)
 	fmt.Println("Sum2 is ", sum2)
-
+	integerTypeConversion()
 }
