@@ -17,4 +17,5 @@ func main() {
 	fmt.Println("Sum2 is ", sum2)
 	integerTypeConversion()
 	varribaleDeclaration()
+	constVariables()
 }
