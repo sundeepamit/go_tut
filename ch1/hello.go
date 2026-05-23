@@ -18,4 +18,5 @@ func main() {
 	integerTypeConversion()
 	varribaleDeclaration()
 	constVariables()
+	typedAndUntypedConst()
 }

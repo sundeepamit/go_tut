@@ -41,3 +41,30 @@ func constVariables() {
 	// fmt.Println(pi)
 	// fmt.Println(y)
 }
+
+/*
+*
+variable name should be in camelCase eg: indexCounter
+constant name should be
+
+	Exported constants (public — usable outside the package)
+	const Pi = 3.14
+	const MaxRetries = 5
+	const AppVersion = "1.0.0"
+
+	Unexported constants (private — only inside the package)
+	Start with a lowercase letter:
+	const pi = 3.14
+	const maxRetries = 5
+	const appVersion = "1.0.0"
+*/
+func typedAndUntypedConst() {
+	const x = 10 // this is untyped const
+	// all this assignment are legal
+	var y int = x
+	var z float64 = x
+	var d byte = x
+	// this is typed const and only assigned  to int type variable
+	const typedX int = 20
+	fmt.Println(y, z, d)
+}
